@@ -1,21 +1,22 @@
-// Learning C++ 
+// Learning C++
 // Exercise 00_03
-// Using the exercise files on GitHub, by Eduardo Corpeño 
+// Using the exercise files on GitHub, by Eduardo Corpeño
 
 #include <iostream>
 
-int main(){
-    float num_1, num_2, result;
+int main() {
 
-    std::cout << "Enter number 1: " << std::flush;
-    std::cin >> num_1;
-    std::cout << "Enter number 2: " << std::flush;
-    std::cin >> num_2;
-    
-    result = num_1 + num_2;
-    
-    std::cout << "The result of the addition is " << result << std::endl;
-    
-    std::cout << std::endl << std::endl;
-    return (0);
+  float num_1, num_2, result;
+
+  std::cout << "Enter number 1: " << std::flush;
+  std::cin >> num_1;
+  std::cout << "Enter number 2: " << std::flush;
+  std::cin >> num_2;
+
+  result = num_1 + num_2;
+
+  std::cout << "The result of the addition is " << result << std::endl;
+
+  std::cout << std::endl << std::endl;
+  return (0);
 }
